@@ -13,6 +13,7 @@ function Experience_usestate() {
   const [Id, setId] = useState(1);
   const handleId = (id) => {
     setId(id);
+    console.log("experience", experiencelist[id - 1].data);
   }
   return (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
@@ -26,7 +27,7 @@ function Experience_usestate() {
                         <div>
                             {
                                 experiencelist[Id - 1].data.map(exper => (
-                                    <p className="text-sm sm:text-base listP">
+                                    <p className="text-sm sm:text-base listP listItem">
                                         {exper}
                                     </p>
                                 ))

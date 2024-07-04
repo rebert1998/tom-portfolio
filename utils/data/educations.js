@@ -2,8 +2,8 @@ export const educations = [
   {
     id: 1,
     title: "Computer Science Bachelor Degree",
-    duration: "April 2008 - March 2012",
-    institution: "Fremont University of USA",
+    duration: "April 2009 - March 2013",
+    institution: "Tokyo University of Japan",
   },
   // {
   //   id: 2,

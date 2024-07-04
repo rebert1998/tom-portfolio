@@ -10,7 +10,7 @@ export const skillsData = [
   'MySQL',
   // 'PostgreSQL',
   'Git',
-  'AWS',
+  // 'AWS',
   'Bootstrap',
   // 'Docker',
   'Go',
