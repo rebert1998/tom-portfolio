@@ -26,8 +26,8 @@ function Experience_usestate() {
                     <div className="flex items-center gap-x-8 px-3 py-5">
                         <div>
                             {
-                                experiencelist[Id - 1].data.map(exper => (
-                                    <p className="text-sm sm:text-base listP listItem">
+                                experiencelist[Id - 1].data.map((exper, i) => (
+                                    <p key={i} className="text-sm sm:text-base listP listItem">
                                         {exper}
                                     </p>
                                 ))
